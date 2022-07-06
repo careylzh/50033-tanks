@@ -63,4 +63,7 @@ public class TankHealth : MonoBehaviour
 
         gameObject.SetActive(false);
     }
+    private void Update(){
+        m_CurrentHealth -= 5;
+    }
 }
